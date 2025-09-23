@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "bash ./scripts/run-with-node20.sh slidev build",
-    "dev": "bash ./scripts/run-with-node20.sh slidev --open",
-    "export": "bash ./scripts/run-with-node20.sh slidev export --format png"
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export --format png"
   },
   "dependencies": {
     "@slidev/cli": "^52.2.4",
