@@ -1,0 +1,19 @@
+{
+  "name": "zoop",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bash ./scripts/run-with-node20.sh slidev build",
+    "dev": "bash ./scripts/run-with-node20.sh slidev --open",
+    "export": "bash ./scripts/run-with-node20.sh slidev export --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.21"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.55.0"
+  }
+}
